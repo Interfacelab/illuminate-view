@@ -1,0 +1,61 @@
+{
+  "name": "ilab/illuminate-view",
+  "description": "The Illuminate View package.",
+  "license": "MIT",
+  "homepage": "https://laravel.com",
+  "support": {
+    "issues": "https://github.com/laravel/framework/issues",
+    "source": "https://github.com/laravel/framework"
+  },
+  "authors": [
+    {
+      "name": "Taylor Otwell",
+      "email": "taylor@laravel.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "ilab/illuminate-container": "5.6.*",
+    "ilab/illuminate-contracts": "5.6.*",
+    "ilab/illuminate-events": "5.6.*",
+    "ilab/illuminate-filesystem": "5.6.*",
+    "ilab/illuminate-support": "5.6.*",
+    "symfony/debug": "~3.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "ILAB_Illuminate\\View\\": "src/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "5.6-dev"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/interfacelab/ilab-illuminate-container"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/interfacelab/ilab-illuminate-contracts"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/interfacelab/ilab-illuminate-events"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/interfacelab/ilab-illuminate-filesystem"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/interfacelab/ilab-illuminate-support"
+    }
+  ]
+}
